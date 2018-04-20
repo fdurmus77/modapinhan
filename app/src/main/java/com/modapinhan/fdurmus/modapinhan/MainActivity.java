@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         myWebView = (WebView) findViewById(R.id.webview);
 
         initWebView();
-        myWebView.loadUrl("http://modapinhan.1ticaret.com/");
+        myWebView.loadUrl("http://www.modapinhan.com/");
 
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
