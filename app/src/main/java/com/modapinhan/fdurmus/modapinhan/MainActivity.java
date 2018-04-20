@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             ShortcutManager shortcutManager = (ShortcutManager) getSystemService(ShortcutManager.class);
             ShortcutInfo shortcut = new ShortcutInfo.Builder(this, "id1")
                     .setShortLabel("Web site")
-                    .setLongLabel("Web siyeti aç.")
+                    .setLongLabel("Web siteyi aç.")
                     .setIcon(Icon.createWithResource(this.getBaseContext(), R.drawable.add))
                     .setIntent(new Intent(Intent.ACTION_VIEW,
                             Uri.parse(webSite)))
