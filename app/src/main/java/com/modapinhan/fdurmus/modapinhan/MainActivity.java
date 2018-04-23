@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N_MR1) {
             ShortcutManager shortcutManager = (ShortcutManager) getSystemService(ShortcutManager.class);
+            /* UZUN DOKUNMA MENÜSÜ
             ShortcutInfo shortcut = new ShortcutInfo.Builder(this, "id1")
                     .setShortLabel("Web site")
                     .setLongLabel("Web siteyi aç.")
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                             Uri.parse(webSite)))
                     .build();
             shortcutManager.setDynamicShortcuts(Arrays.asList(shortcut));
+            */
         }
 
 
