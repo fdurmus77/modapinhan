@@ -3,7 +3,7 @@
         <shortcut
             android:shortcutId="compose"
             android:enabled="true"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@mipmap/yonca_logo"
             android:shortcutShortLabel="@string/compose_shortcut_short_label1"
             android:shortcutLongLabel="@string/compose_shortcut_long_label1"
             android:shortcutDisabledMessage="@string/compose_disabled_message1">
